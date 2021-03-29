@@ -1,0 +1,16 @@
+#include<stdio.h>
+main()
+{
+int a;
+int b;
+
+printf("Enter the value for a: ");
+scanf("%d", &a);
+printf("Enter the value for b: ");
+scanf("%d", &b);
+int c=a+b-a ;
+int d=a+b-b ;
+printf("The value of a after swapping is: %d\n ",c);
+printf("The value of b after swapping is: %d ",d ) ;
+}
+
